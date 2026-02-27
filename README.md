@@ -46,7 +46,7 @@ Create a `.md` file anywhere inside `src/content/docs/`:
 ```md
 ---
 title: Your Page Title
-description: A short summary.
+description: A   summary.
 order: 1
 section: section-name
 ---
@@ -76,6 +76,19 @@ export default {
   },
 };
 ```
+
+## Deploy to GitHub Pages
+
+This template is set up to deploy automatically via GitHub Actions.
+
+1. Push this repo to GitHub
+2. Go to **Settings > Pages** in your repo
+3. Under **Source**, select **GitHub Actions**
+4. Push to `main` — the site will build and deploy automatically
+
+The workflow detects your repo name and sets the correct base path. No manual configuration needed.
+
+**Writing links in Markdown:** Use relative paths for links between docs (e.g., `[Support](../getting-started/support)`) so they work correctly on GitHub Pages.
 
 ## Commands
 

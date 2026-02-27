@@ -17,4 +17,4 @@ This documentation covers:
 
 ## Need help?
 
-If you run into any issues or have questions, don't hesitate to reach out. Contact details are in the [Support](/docs/getting-started/support) section.
+If you run into any issues or have questions, don't hesitate to reach out. Contact details are in the [Support](../getting-started/support) section.

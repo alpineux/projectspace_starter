@@ -1,6 +1,6 @@
 export default {
   site: {
-    title: "ShortOnSpace Website Docs",
+    title: "Project Docs",
     description:
       "Everything you need to manage and maintain your website, all in one place.",
   },
